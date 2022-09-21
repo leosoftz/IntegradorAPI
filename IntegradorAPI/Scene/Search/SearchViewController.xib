@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchViewController" customModule="IntegradorAPI" customModuleProvider="target">
+            <connections>
+                <outlet property="searchBar" destination="4rZ-oW-5Vl" id="mUI-BH-3dC"/>
+                <outlet property="tableResultados" destination="s11-I0-SCj" id="Ncj-Aq-iK5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ub4-5r-1rO">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                    <subviews>
+                        <searchBar contentMode="redraw" barStyle="black" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="4rZ-oW-5Vl">
+                            <rect key="frame" x="10" y="48" width="394" height="47"/>
+                            <color key="tintColor" name="andes-accent-color-150"/>
+                            <color key="barTintColor" name="andes-accent-color-100"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </searchBar>
+                    </subviews>
+                    <color key="backgroundColor" name="andes-yellow-ml-500"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="4rZ-oW-5Vl" secondAttribute="trailing" constant="10" id="GEV-TK-DRU"/>
+                        <constraint firstAttribute="bottom" secondItem="4rZ-oW-5Vl" secondAttribute="bottom" constant="5" id="Z9h-0t-HnQ"/>
+                        <constraint firstAttribute="height" constant="100" id="oXh-dc-58q"/>
+                        <constraint firstItem="4rZ-oW-5Vl" firstAttribute="leading" secondItem="ub4-5r-1rO" secondAttribute="leading" constant="10" id="vnB-Mw-RjQ"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="s11-I0-SCj">
+                    <rect key="frame" x="0.0" y="100" width="414" height="762"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="s11-I0-SCj" secondAttribute="trailing" id="0iN-7f-29r"/>
+                <constraint firstItem="s11-I0-SCj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="8wA-Uf-Phh"/>
+                <constraint firstItem="ub4-5r-1rO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="DFe-fL-ZWx"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="s11-I0-SCj" secondAttribute="bottom" id="ZHp-7l-zPw"/>
+                <constraint firstAttribute="trailing" secondItem="ub4-5r-1rO" secondAttribute="trailing" id="ZUf-SS-7a9"/>
+                <constraint firstItem="s11-I0-SCj" firstAttribute="top" secondItem="ub4-5r-1rO" secondAttribute="bottom" id="dfF-KU-91L"/>
+                <constraint firstItem="ub4-5r-1rO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fi0-QZ-b5j"/>
+                <constraint firstItem="4rZ-oW-5Vl" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="hf6-o4-S3z"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="79.6875"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="andes-accent-color-100">
+            <color red="0.27799999713897705" green="0.60399997234344482" blue="0.81999999284744263" alpha="0.10000000149011612" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="andes-accent-color-150">
+            <color red="0.27799999713897705" green="0.60399997234344482" blue="0.81999999284744263" alpha="0.15000000596046448" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="andes-yellow-ml-500">
+            <color red="1" green="0.90196078431372551" blue="0.0078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-IntegradorAPI/Pods-IntegradorAPI-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AndesUI/AndesUI.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework

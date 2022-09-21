@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <accessibilityOverrides dynamicTypePreference="2"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AndesSwitchViewDefault" customModule="AndesUI">
+            <connections>
+                <outlet property="componentView" destination="iN0-l3-epB" id="pJc-XA-8DK"/>
+                <outlet property="labelSwitch" destination="xpo-Rk-sfr" id="plm-Fp-eh5"/>
+                <outlet property="leadingSwitchConstraint" destination="36z-Jp-O0d" id="OzY-wg-h9b"/>
+                <outlet property="leftConstraint" destination="xsK-kh-psC" id="hd2-lc-0lo"/>
+                <outlet property="leftSwitch" destination="440-yU-LlM" id="Ynm-IC-Zuj"/>
+                <outlet property="leftSwitchView" destination="jeB-lv-5c7" id="jUd-92-NnC"/>
+                <outlet property="rightSwitch" destination="jMt-3Y-o3q" id="1LJ-EK-zje"/>
+                <outlet property="rightSwitchView" destination="DZU-BH-sK2" id="dX4-YD-hKL"/>
+                <outlet property="rigthConstraint" destination="TFb-ye-2D1" id="Zta-7v-ZOT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="186" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jeB-lv-5c7">
+                    <rect key="frame" x="0.0" y="2.5" width="55" height="35"/>
+                    <subviews>
+                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="440-yU-LlM">
+                            <rect key="frame" x="3" y="2" width="51" height="31"/>
+                            <gestureRecognizers/>
+                            <color key="onTintColor" systemColor="systemBlueColor"/>
+                        </switch>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="55" id="IRh-Yb-aKW"/>
+                        <constraint firstItem="440-yU-LlM" firstAttribute="centerY" secondItem="jeB-lv-5c7" secondAttribute="centerY" id="Y4B-zA-qdB"/>
+                        <constraint firstAttribute="height" constant="35" id="kQ1-pD-Ya2"/>
+                        <constraint firstItem="440-yU-LlM" firstAttribute="centerX" secondItem="jeB-lv-5c7" secondAttribute="centerX" id="zUM-lE-nFf"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Switch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xpo-Rk-sfr">
+                    <rect key="frame" x="62" y="0.0" width="51.5" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DZU-BH-sK2">
+                    <rect key="frame" x="123.5" y="2.5" width="55" height="35"/>
+                    <subviews>
+                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jMt-3Y-o3q">
+                            <rect key="frame" x="3" y="2" width="51" height="31"/>
+                            <gestureRecognizers/>
+                            <color key="onTintColor" systemColor="systemBlueColor"/>
+                        </switch>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="jMt-3Y-o3q" firstAttribute="centerX" secondItem="DZU-BH-sK2" secondAttribute="centerX" id="9ru-re-GlH"/>
+                        <constraint firstAttribute="width" constant="55" id="br4-FI-Alz"/>
+                        <constraint firstAttribute="height" constant="35" id="cHi-1S-OZ6"/>
+                        <constraint firstItem="jMt-3Y-o3q" firstAttribute="centerY" secondItem="DZU-BH-sK2" secondAttribute="centerY" id="pa5-BI-d2e"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="jeB-lv-5c7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="36z-Jp-O0d"/>
+                <constraint firstItem="xpo-Rk-sfr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="CY4-Lz-Qdm"/>
+                <constraint firstItem="DZU-BH-sK2" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Gz1-p7-FaS"/>
+                <constraint firstAttribute="trailing" secondItem="xpo-Rk-sfr" secondAttribute="trailing" priority="250" id="TFb-ye-2D1"/>
+                <constraint firstItem="xpo-Rk-sfr" firstAttribute="leading" secondItem="440-yU-LlM" secondAttribute="trailing" constant="10" id="Wcm-FP-WUK"/>
+                <constraint firstItem="jeB-lv-5c7" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="eEf-qd-GdP"/>
+                <constraint firstItem="DZU-BH-sK2" firstAttribute="leading" secondItem="xpo-Rk-sfr" secondAttribute="trailing" constant="10" id="sa9-QC-V46"/>
+                <constraint firstAttribute="bottom" secondItem="xpo-Rk-sfr" secondAttribute="bottom" id="wMf-br-A9F"/>
+                <constraint firstItem="xpo-Rk-sfr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" priority="250" id="xsK-kh-psC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="71.014492753623188" y="-267.85714285714283"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

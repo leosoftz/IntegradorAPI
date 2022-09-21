@@ -1,0 +1,104 @@
+/* 
+  AndesUILocalizable.strings
+  AndesUI
+
+  Created by Samuel Sainz on 12/06/2020.
+  
+*/
+
+"Buscar" = "Buscar";
+"Borrar texto" = "Borrar texto";
+"Cerrar" = "Cerrar";
+"Cerrar mensaje" = "Cerrar mensaje";
+"image accessibility" = "Imagen";
+"icon accessibility" = "Icono";
+"Error" = "Error";
+"Advertencia" = "Advertencia";
+"presente en el campo de texto" = " presente en el campo de texto ";
+"máximo número de caracteres:" = "máximo número de caracteres:";
+"Campo de texto" = "Campo de texto";
+"%d caracteres restantes" = "%d caracteres restantes";
+"caracteres ingresados %d de %d." = "caracteres ingresados %d de %d.";
+"Página %d de %d" = "Página %d de %d";
+"Campo de código completo" = "Campo de código completo";
+"Campo de código, %@%@%@%@ caracteres ingresados: %d de %d" = "Campo de código, %@%@%@%@ caracteres ingresados: %d de %d";
+"error," = "error, ";
+"inProgress" = " en curso";
+"TabSelected" = "seleccionado, ";
+"TabDescription" = ", pestaña";
+"CurrentStatus" = ", %d de %d.";
+"Toque dos veces para alternar" = "Toque dos veces para alternar la configuración";
+"Marcado" = "Marcado";
+"No Marcado" = "No Marcado";
+"Sin definir" = "Sin definir";
+"Casilla de selección" = "Casilla de selección";
+"Botón de selección" = "Botón de selección";
+"Toque dos veces para cambiar" = "Toque dos veces para cambiar";
+"Previous" = "Antes";
+"Less" = "Menos";
+"OFF" = "de descuento";
+"now" = "Ahora";
+"Peso" = "Peso" ;
+"Pesos" = "Pesos" ;
+"Boliviano" = "Boliviano" ;
+"Bolivianos" = "Bolivianos" ;
+"Real" = "Real" ;
+"Reales" = "Reales" ;
+"Unidad de fomento" = "Unidad de fomento" ;
+"Unidades de fomento" = "Unidades de fomento" ;
+"Colón" = "Colón" ;
+"Colones" = "Colones" ;
+"Peso cubano convertible" = "Peso cubano convertible" ;
+"Pesos cubanos convertibles" = "Pesos cubanos convertibles" ;
+"Euro" = "Euro" ;
+"Euros" = "Euros" ;
+"Quetzal guatemalteco" = "Quetzal guatemalteco" ;
+"Quetzales guatemaltecos" = "Quetzales guatemaltecos" ;
+"Lempira" = "Lempira" ;
+"Lempiras" = "Lempiras" ;
+"Cordova" = "Cordova" ;
+"Córdobas" = "Córdobas" ;
+"Balboa" = "Balboa" ;
+"Balboas" = "Balboas" ;
+"Sol" = "Sol" ;
+"Soles" = "Soles" ;
+"Guaraní" = "Guaraní" ;
+"Guaraníes" = "Guaraníes" ;
+"Dólar" = "Dólar" ;
+"Dólares" = "Dólares" ;
+"Bolívar" = "Bolívar" ;
+"Bolívares" = "Bolívares" ;
+"Centavo" = "Centavo" ;
+"Centavos" = "Centavos" ;
+"Céntimo" = "Céntimo" ;
+"Céntimos" = "Céntimos" ;
+"Centésimo" = "Centésimo" ;
+"Centésimos" = "Centésimos" ;
+"Cent" = "Cent" ;
+"Cents" = "Cents" ;
+"Bitcoin" = "Bitcoin" ;
+"Bitcoins" = "Bitcoins" ;
+"Ethereum" = "Ethereum" ;
+"Mercado Coin" = "Mercado Coin" ;
+"USDP Stablecoin" = "USDP Stablecoin" ;
+"SEG" = "LUN";
+"TER" = "MAR";
+"QUA" = "MIÉ";
+"QUI" = "JUE";
+"SEX" = "VIE";
+"SAB" = "SÁB";
+"DOM" = "DOM";
+"Siguiente Mes" = "Siguiente Mes";
+"Mes anterior" = "Mes anterior";
+"CardSelected" = ";toque dos veces para activar" ;
+"CloseFloatingMenu" = "Toque dos veces para cerrar";
+"Cancelar" = "Cancelar";
+"Links disponibles" = "Links disponibles";
+"links disponibles, doble tap para listarlos" = "links disponibles, doble tap para listarlos";
+"Toque dos veces para cerrar el modal" = "Toque dos veces para cerrar el modal";
+"Con" = "Con";
+"remove" = "Eliminar ";
+"StepsStatus" = "%d de %d";
+// MARK: - Error UX
+"error_code" = "Código: ";
+"Toque dos veces para editar" = "Toque dos veces para editar";
